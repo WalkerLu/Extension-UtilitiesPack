@@ -50,22 +50,7 @@
     },
     "files": [
         {
-            "path": "Tokenizer"
-        },
-        {
-            "path": "Powershell++"
-        },
-        {
             "path": "Shell++"
-        },
-        {
-            "path": "zip"
-        },
-        {
-            "path": "unzip"
-        },
-        {
-            "path": "Rollback"
         },
         {
             "path": "images",
