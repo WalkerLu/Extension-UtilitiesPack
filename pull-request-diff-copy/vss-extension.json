@@ -11,15 +11,15 @@
         "large": "images/Icon512.png"
     },
     "screenshots": [
-    	{
-      		"path": "images/screen1.png"
-    	},
-    	{
-      		"path": "images/screen1.png"
-    	},
-    	{
-      		"path": "images/screen1.png"
-    	}
+        {
+            "path": "images/screen1.png"
+        },
+        {
+            "path": "images/screen1.png"
+        },
+        {
+            "path": "images/screen1.png"
+        }
     ],
     "categories": [
         "Build and release"
@@ -38,39 +38,39 @@
         "repository": {
             "uri": "https://github.com/openalm/Extension-UtilitiesPack"
         }
-	},
+    },
     "branding": {
         "color": "#f6f7fb",
         "theme": "light"
-    },	
+    },
     "content": {
         "details": {
             "path": "overview.md"
         }
     },
     "files": [
-      {
-        "path": "Tokenizer"
-      },
-      {
-        "path": "Powershell++"
-      },
-      {
-        "path": "Shell++"
-      },
-      {
-        "path": "zip"
-      },
-      {
-        "path": "unzip"
-      },
-      {
-        "path": "Rollback"
-      },
-      {
-        "path": "images",
-        "addressable": true
-      }
+        {
+            "path": "Tokenizer"
+        },
+        {
+            "path": "Powershell++"
+        },
+        {
+            "path": "Shell++"
+        },
+        {
+            "path": "zip"
+        },
+        {
+            "path": "unzip"
+        },
+        {
+            "path": "Rollback"
+        },
+        {
+            "path": "images",
+            "addressable": true
+        }
     ],
     "scopes": [
         "vso.build_execute",
@@ -83,16 +83,6 @@
     ],
     "contributions": [
         {
-            "id": "task-tokenizer",
-            "type": "ms.vss-distributed-task.task",
-            "targets": [
-                "ms.vss-distributed-task.tasks"
-            ],
-            "properties": {
-                "name": "Tokenizer"
-            }
-        },
-        {
             "id": "task-PSpp",
             "type": "ms.vss-distributed-task.task",
             "targets": [
@@ -100,46 +90,6 @@
             ],
             "properties": {
                 "name": "Powershell++"
-            }
-        },
-        {
-            "id": "task-Shellpp",
-            "type": "ms.vss-distributed-task.task",
-            "targets": [
-                "ms.vss-distributed-task.tasks"
-            ],
-            "properties": {
-                "name": "Shell++"
-            }
-        },
-        {
-            "id": "task-zip",
-            "type": "ms.vss-distributed-task.task",
-            "targets": [
-                "ms.vss-distributed-task.tasks"
-            ],
-            "properties": {
-                "name": "zip"
-            }
-        },
-      {
-        "id": "task-unzip",
-        "type": "ms.vss-distributed-task.task",
-        "targets": [
-          "ms.vss-distributed-task.tasks"
-        ],
-        "properties": {
-          "name": "unzip"
-        }
-      },
-      {
-            "id": "task-rollback",
-            "type": "ms.vss-distributed-task.task",
-            "targets": [
-                "ms.vss-distributed-task.tasks"
-            ],
-            "properties": {
-                "name": "Rollback"
             }
         }
     ]
