@@ -61,7 +61,7 @@
         ],
     "contributions": [
         {
-            "id": "task-Shellpp",
+            "id": "pull-request-diff-copy",
             "type": "ms.vss-distributed-task.task",
             "targets": [
                 "ms.vss-distributed-task.tasks"
