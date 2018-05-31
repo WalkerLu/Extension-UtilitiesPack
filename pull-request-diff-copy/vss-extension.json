@@ -22,7 +22,7 @@
     },
     "files": [
         {
-            "path": "Shell++"
+            "path": "task"
         }
     ],
     "content": {
@@ -67,7 +67,7 @@
                 "ms.vss-distributed-task.tasks"
             ],
             "properties": {
-                "name": "Shell++"
+                "name": "task"
             }
         }
     ]

@@ -52,7 +52,7 @@
   }
 ],
 "execution": {
-  "PowerShell3": {
+  "Node": {
     "target": "task.js"
   }
 }
