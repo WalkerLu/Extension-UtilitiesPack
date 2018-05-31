@@ -1,5 +1,3 @@
-var tl = require('vso-task-lib');
-
-tl.warning("Hello");
-
+var tl = require('vsts-task-lib');
+tl.debug("hello")
 
